@@ -1,0 +1,168 @@
+:root{
+    --branco-main: #FFFFFF;
+    --cinza-sub: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-fundo: #00030C;
+    --fonte-main: 'Inter';
+    --botao-efeito: #2b89fd;
+}
+
+body{
+    background-color: var(--cor-fundo);
+    color: var(--branco-main);
+    font-family: var(--fonte-main);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.principal{
+    align-items: center;
+    text-align: center;
+}
+
+.container{
+    height: 90vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.imagem_principal{
+    background-image: url("img/logo\ alura.png");
+    background-repeat: no-repeat;
+    filter:alpha(opacity=20);
+    border-radius: 15px;
+    width: 75%;
+    margin: 10% auto;
+}
+
+.container_botao{
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-main);
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+    /*
+        EM: é uma unidade de medida referente a fonte
+        Exemplo: fonte de 16px -- EM refente a 16px
+    */
+}
+
+.botao_sec{
+    background-color: transparent;
+    border: 2px solid var(--branco-main);
+}
+
+.container_aviso {
+    font-size: 12px;
+    color: var(--cinza-sub);
+}
+
+.container_title{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.container_imagem{
+    margin: 1em 0 2em 0;
+}
+
+.container_caixa{
+    margin: 0 6em;
+}
+
+.secudario_imagem{
+    width: 110%;
+    margin-left: 20px;
+}
+
+.secundario{
+    align-items: center;
+    margin: 0 10em;
+}
+
+.descricao_title{
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--branco-main);
+    margin-bottom: 0.1em;
+}
+
+.descricao_texto{
+    color: var(--cinza-sub);
+}
+
+.secundario_botao{
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.container_descricao{
+    padding: 3em;
+}
+
+.imagem_plat{
+    margin: auto;
+}
+
+.disp_lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.disp{
+    text-align: center;
+}
+
+.disp_title{
+    font-size: 48px;
+    color: var(--branco-main);
+}
+
+.lista_item{
+    font-size: 32px;
+    color: var(--branco-main);
+}
+
+.rodape{
+    text-align: center;
+    margin: 5em 1em;
+    margin-top: 15%;
+}
+
+.rodape_lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    text-decoration: none;
+    margin-top: 2em;
+}
+
+.lista_link a{
+    text-decoration: none;
+    color: var(--branco-main);
+    margin-left: 1em;
+}
+
+.rodape_texto{
+    margin: 1em 0;
+    color: var(--cinza-sub);
+    font-size: 14px;
+}
+
+.lista_link a:hover{
+    color: var(--botao-azul);
+}
+
+.container_botao:hover{
+    background-color: var(--botao-efeito);
+    color: var(--cor-fundo);
+}
