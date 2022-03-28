@@ -18,3 +18,6 @@ https://www.figma.com/file/autz6QPttyj7enMfIaKQ4s/Alura-Plus---Layout?node-id=0%
 </ul>
 
 ## Preview do site!
+
+<img href="img/preview/inicial-page.png">
+<img href="img/preview/footer-page.png">
