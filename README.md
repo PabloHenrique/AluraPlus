@@ -4,7 +4,7 @@ Projeto Criado no curso Alura - Praticando HTML e CSS
 ## Curso 01 - Alura
 Projeto para colocar em prática conhecimentos de HTML e CSS
 
-Uso do Figma para criar Layout
+Uso do <strong>Figma</strong> para criar Layout
 <br>
 https://www.figma.com/file/autz6QPttyj7enMfIaKQ4s/Alura-Plus---Layout?node-id=0%3A1
 
